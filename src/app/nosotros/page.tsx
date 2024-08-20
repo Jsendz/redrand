@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export default function Nosotros() {
     return (
-        <div className="w-full h-full  flex flex-col justify-center items-left p-5 bg-gradient-to-tr from-slate-50 via-gray-200 to-orange-200 text-slate-700  pt-32 animate-slidein text-left">
+        <div className="w-full h-full  flex flex-col justify-center items-left p-5 bg-gradient-to-tr from-slate-50 via-gray-200 to-orange-200 text-slate-700  pt-20 animate-slidein">
             <p className="text-xl  pb-5  ">Si te gustan los gatos, estás a un <Link href="/nosotros/gatitos"> <span className="font-bold animate-bounce text-pink-300">clic </span> </Link> de amarlos aún más. </p>
                 <p className="pb-10  text-xl " >{' '}
 

@@ -14,10 +14,10 @@ const Navbar = () => {
 
 
   return (
-    <div className='w-full fixed flex justify-betweenbg-gradient-to-tr from-slate-50 via-gray-200 to-red-300 text-slate-700 p-5'>
+    <div className='w-full fixed flex justify-betweenbg-gradient-to-tr from-slate-50 via-gray-200 to-red-300 text-slate-700 p-5 z-50'>
          <div className='w-full' >
          <Link href="/">  
-        <Image src="/logopink.png" alt="logo" width={200} height={100} />
+        <Image src="/logopink.PNG" alt="logo" width={200} height={100} />
         </Link>
         </div>
         <div className='w-full h-full flex justify-end items-center'>
